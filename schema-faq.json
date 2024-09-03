@@ -1,0 +1,14 @@
+[
+  {
+    "name": "question",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },  
+  {
+    "name": "answer",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  }
+]

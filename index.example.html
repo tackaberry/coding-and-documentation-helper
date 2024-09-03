@@ -1,0 +1,30 @@
+<html>
+
+<body>
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+        oauth-client-id="CLIENT_ID"
+        project-id="PROJECT"
+        agent-id="AGENT"
+        language-code="en"
+        max-query-length="-1">
+        <df-messenger-chat
+            chat-title="pubsec-declarative-toolkit chatbot">
+        </df-messenger-chat>
+    </df-messenger>
+    <style>
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            width: 650px;
+        }
+    </style>
+
+</body>
+
+</html>
